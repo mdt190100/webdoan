@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register - RoamAway</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Firebase SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js"></script>
+
+    <script src="firebase.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="video-container">
+      <video src="videonen.mp4" autoplay muted loop></video>
+    </div>
+
+    <div class="form-container">
+      <h1>Đăng ký</h1>
+      <form id="registerForm">
+        <p>Họ và tên</p>
+        <input type="text" id="full-name" required />
+
+        <p>Ngày tháng năm sinh</p>
+        <input type="date" id="birth-date" required />
+
+        <p>Số CMND/CCCD</p>
+        <input type="text" id="cmnd" required />
+        <p>Số điện thoại</p>
+        <input type="tel" id="phone-number" required />
+
+        <p>Email</p>
+        <input type="text" id="register-email" required />
+
+        <p>Mật khẩu</p>
+        <input type="password" id="register-password" required />
+
+        <p>Xác nhận mật khẩu</p>
+        <input type="password" id="register-confirm-password" required />
+
+        <button type="submit">Đăng ký</button>
+
+        <p class="switch-form">
+          Đã có tài khoản? <a href="index.html">Đăng nhập</a>
+        </p>
+      </form>
+    </div>
+
+    <script src="register.js"></script>
+  </body>
+</html>

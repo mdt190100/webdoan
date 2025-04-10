@@ -1,0 +1,249 @@
+[debug] [2025-04-10T03:28:29.009Z] ----------------------------------------------------------------------
+[debug] [2025-04-10T03:28:29.011Z] Command:       D:\app\node.exe C:\Users\Cyber game\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-04-10T03:28:29.012Z] CLI Version:   14.1.0
+[debug] [2025-04-10T03:28:29.012Z] Platform:      win32
+[debug] [2025-04-10T03:28:29.012Z] Node Version:  v22.11.0
+[debug] [2025-04-10T03:28:29.012Z] Time:          Thu Apr 10 2025 12:28:29 GMT+0900 (Giờ Chuẩn Hàn Quốc)
+[debug] [2025-04-10T03:28:29.012Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-10T03:28:29.017Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-10T03:28:29.018Z] > authorizing via signed-in user (maithuy300586@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\webdoan
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-04-10T03:28:41.898Z] Checked if tokens are valid: true, expires at: 1744258659311
+[debug] [2025-04-10T03:28:41.898Z] Checked if tokens are valid: true, expires at: 1744258659311
+[debug] [2025-04-10T03:28:41.899Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-04-10T03:28:42.577Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-04-10T03:28:42.577Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project roamaway-web (RoamAway-web) 
+[info] 
+=== Firestore Setup
+[debug] [2025-04-10T03:28:44.598Z] Checked if tokens are valid: true, expires at: 1744258659311
+[debug] [2025-04-10T03:28:44.598Z] Checked if tokens are valid: true, expires at: 1744258659311
+[debug] [2025-04-10T03:28:44.598Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/roamaway-web/services/firestore.googleapis.com [none]
+[debug] [2025-04-10T03:28:44.599Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/roamaway-web/services/firestore.googleapis.com x-goog-quota-user=projects/roamaway-web
+[debug] [2025-04-10T03:28:45.713Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/roamaway-web/services/firestore.googleapis.com 200
+[debug] [2025-04-10T03:28:45.713Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/roamaway-web/services/firestore.googleapis.com [omitted]
+[debug] [2025-04-10T03:28:45.714Z] Checked if tokens are valid: true, expires at: 1744258659311
+[debug] [2025-04-10T03:28:45.714Z] Checked if tokens are valid: true, expires at: 1744258659311
+[debug] [2025-04-10T03:28:45.714Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/roamaway-web/databases/(default) [none]
+[debug] [2025-04-10T03:28:45.873Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/roamaway-web/databases/(default) 200
+[debug] [2025-04-10T03:28:45.874Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/roamaway-web/databases/(default) {"name":"projects/roamaway-web/databases/(default)","uid":"455b459d-3adc-4814-8900-d8458469ad93","createTime":"2025-04-10T03:27:46.358844Z","updateTime":"2025-04-10T03:27:46.358844Z","locationId":"asia-northeast3","type":"FIRESTORE_NATIVE","concurrencyMode":"PESSIMISTIC","versionRetentionPeriod":"3600s","earliestVersionTime":"2025-04-10T03:27:46.358844Z","appEngineIntegrationMode":"DISABLED","keyPrefix":"v","pointInTimeRecoveryEnablement":"POINT_IN_TIME_RECOVERY_DISABLED","deleteProtectionState":"DELETE_PROTECTION_DISABLED","databaseEdition":"STANDARD","freeTier":true,"etag":"IOKuuPbCzIwDMLyUkNvCzIwD"}
+[debug] [2025-04-10T03:28:45.874Z] database_type: FIRESTORE_NATIVE
+[debug] [2025-04-10T03:28:45.874Z] database_type: FIRESTORE_NATIVE
+[debug] [2025-04-10T03:28:45.874Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-10T03:28:45.874Z] > authorizing via signed-in user (maithuy300586@gmail.com)
+[debug] [2025-04-10T03:28:45.874Z] [iam] checking project roamaway-web for permissions ["firebase.projects.get"]
+[debug] [2025-04-10T03:28:45.875Z] Checked if tokens are valid: true, expires at: 1744258659311
+[debug] [2025-04-10T03:28:45.875Z] Checked if tokens are valid: true, expires at: 1744258659311
+[debug] [2025-04-10T03:28:45.875Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/roamaway-web:testIamPermissions [none]
+[debug] [2025-04-10T03:28:45.875Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/roamaway-web:testIamPermissions x-goog-quota-user=projects/roamaway-web
+[debug] [2025-04-10T03:28:45.875Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/roamaway-web:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-04-10T03:28:46.666Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/roamaway-web:testIamPermissions 200
+[debug] [2025-04-10T03:28:46.666Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/roamaway-web:testIamPermissions {"permissions":["firebase.projects.get"]}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2025-04-10T03:28:50.898Z] Checked if tokens are valid: true, expires at: 1744258659311
+[debug] [2025-04-10T03:28:50.898Z] Checked if tokens are valid: true, expires at: 1744258659311
+[debug] [2025-04-10T03:28:50.898Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/roamaway-web/releases pageSize=10&pageToken=
+[debug] [2025-04-10T03:28:52.123Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/roamaway-web/releases 200
+[debug] [2025-04-10T03:28:52.124Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/roamaway-web/releases {"releases":[{"name":"projects/roamaway-web/releases/cloud.firestore","rulesetName":"projects/roamaway-web/rulesets/43a87a32-bfeb-4d79-8774-8cbee97fb8e0","createTime":"2025-04-10T03:27:53.382764Z","updateTime":"2025-04-10T03:27:53.382764Z"}]}
+[debug] [2025-04-10T03:28:52.124Z] Found ruleset: projects/roamaway-web/rulesets/43a87a32-bfeb-4d79-8774-8cbee97fb8e0
+[debug] [2025-04-10T03:28:52.124Z] Checked if tokens are valid: true, expires at: 1744258659311
+[debug] [2025-04-10T03:28:52.124Z] Checked if tokens are valid: true, expires at: 1744258659311
+[debug] [2025-04-10T03:28:52.124Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/roamaway-web/rulesets/43a87a32-bfeb-4d79-8774-8cbee97fb8e0 [none]
+[debug] [2025-04-10T03:28:53.169Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/roamaway-web/rulesets/43a87a32-bfeb-4d79-8774-8cbee97fb8e0 200
+[debug] [2025-04-10T03:28:53.169Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/roamaway-web/rulesets/43a87a32-bfeb-4d79-8774-8cbee97fb8e0 [omitted]
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2025-04-10T03:28:53.310Z] Checked if tokens are valid: true, expires at: 1744258659311
+[debug] [2025-04-10T03:28:53.310Z] Checked if tokens are valid: true, expires at: 1744258659311
+[debug] [2025-04-10T03:28:53.310Z] Checked if tokens are valid: true, expires at: 1744258659311
+[debug] [2025-04-10T03:28:53.310Z] Checked if tokens are valid: true, expires at: 1744258659311
+[debug] [2025-04-10T03:28:53.310Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/roamaway-web/databases/(default)/collectionGroups/-/indexes [none]
+[debug] [2025-04-10T03:28:53.312Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/roamaway-web/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* [none]
+[debug] [2025-04-10T03:28:53.443Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/roamaway-web/databases/(default)/collectionGroups/-/indexes 200
+[debug] [2025-04-10T03:28:53.443Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/roamaway-web/databases/(default)/collectionGroups/-/indexes {}
+[debug] [2025-04-10T03:28:53.991Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/roamaway-web/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* 200
+[debug] [2025-04-10T03:28:53.991Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/roamaway-web/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* {"fields":[{"name":"projects/roamaway-web/databases/(default)/collectionGroups/__default__/fields/*","indexConfig":{"indexes":[{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","order":"ASCENDING"}],"state":"READY"},{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","order":"DESCENDING"}],"state":"READY"},{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","arrayConfig":"CONTAINS"}],"state":"READY"}]}}]}
+[info] 
+=== Hosting Setup
+[debug] [2025-04-10T03:28:53.993Z] Checked if tokens are valid: true, expires at: 1744258659311
+[debug] [2025-04-10T03:28:53.993Z] Checked if tokens are valid: true, expires at: 1744258659311
+[debug] [2025-04-10T03:28:53.994Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/roamaway-web [none]
+[debug] [2025-04-10T03:28:54.411Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/roamaway-web 200
+[debug] [2025-04-10T03:28:54.411Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/roamaway-web {"projectId":"roamaway-web","projectNumber":"341151613035","displayName":"RoamAway-web","name":"projects/roamaway-web","resources":{"hostingSite":"roamaway-web"},"state":"ACTIVE","etag":"1_a55abadd-45cb-4786-aaea-f26c2c8553e4"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2025-04-10T03:29:05.124Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2025-04-10T03:29:05.322Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2025-04-10T03:29:05.322Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"11.6.0","browserURL":"https://www.gstatic.com/firebasejs/11.6.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/11.6.0/firebase.tgz"},"live":{"version":"11.6","browserURL":"https://www.gstatic.com/firebasejs/live/11.6/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/11.6/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/11.6.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/11.6.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/11.6.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/11.6.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/11.6.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/11.6.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/11.6.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/11.6.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/11.6.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/11.6.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/11.6.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/11.6.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/11.6.0/firebase-database.js","vertexai":"https://www.gstatic.com/firebasejs/11.6.0/firebase-vertexai.js","data-connect":"https://www.gstatic.com/firebasejs/11.6.0/firebase-data-connect.js","firestore.memory":"https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.memory.js"}}
+[info] +  Wrote y/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\webdoan is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=627046343&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-04-10T03:29:14.504Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2025-04-10T03:29:14.504Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2025-04-10T03:29:14.808Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2025-04-10T03:29:14.809Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2025-04-10T03:29:14.812Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2025-04-10T03:29:15.119Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2025-04-10T03:29:15.119Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"mdt190100","id":181398566,"node_id":"U_kgDOCs_sJg","avatar_url":"https://avatars.githubusercontent.com/u/181398566?v=4","gravatar_id":"","url":"https://api.github.com/users/mdt190100","html_url":"https://github.com/mdt190100","followers_url":"https://api.github.com/users/mdt190100/followers","following_url":"https://api.github.com/users/mdt190100/following{/other_user}","gists_url":"https://api.github.com/users/mdt190100/gists{/gist_id}","starred_url":"https://api.github.com/users/mdt190100/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mdt190100/subscriptions","organizations_url":"https://api.github.com/users/mdt190100/orgs","repos_url":"https://api.github.com/users/mdt190100/repos","events_url":"https://api.github.com/users/mdt190100/events{/privacy}","received_events_url":"https://api.github.com/users/mdt190100/received_events","type":"User","user_view_type":"private","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"notification_email":null,"public_repos":6,"public_gists":0,"followers":0,"following":0,"created_at":"2024-09-12T17:25:33Z","updated_at":"2025-03-24T19:56:28Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":1436,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as mdt190100 
+[info] 
+[debug] [2025-04-10T03:29:19.254Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2025-04-10T03:29:19.515Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2025-04-10T03:29:19.515Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-04-10T03:29:21.352Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2025-04-10T03:29:21.569Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2025-04-10T03:29:21.569Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-04-10T03:29:22.223Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2025-04-10T03:29:22.440Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2025-04-10T03:29:22.440Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-04-10T03:29:25.831Z] >>> [apiv2][query] GET https://api.github.com/repos/y/actions/secrets/public-key type=owner
+[debug] [2025-04-10T03:29:26.070Z] <<< [apiv2][status] GET https://api.github.com/repos/y/actions/secrets/public-key 404
+[debug] [2025-04-10T03:29:26.070Z] <<< [apiv2][body] GET https://api.github.com/repos/y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-04-10T03:29:27.468Z] >>> [apiv2][query] GET https://api.github.com/repos/y/actions/secrets/public-key type=owner
+[debug] [2025-04-10T03:29:27.708Z] <<< [apiv2][status] GET https://api.github.com/repos/y/actions/secrets/public-key 404
+[debug] [2025-04-10T03:29:27.708Z] <<< [apiv2][body] GET https://api.github.com/repos/y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-04-10T03:30:20.314Z] >>> [apiv2][query] GET https://api.github.com/repos/ /actions/secrets/public-key type=owner
+[debug] [2025-04-10T03:30:20.582Z] <<< [apiv2][status] GET https://api.github.com/repos/ /actions/secrets/public-key 404
+[debug] [2025-04-10T03:30:20.582Z] <<< [apiv2][body] GET https://api.github.com/repos/ /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-04-10T03:30:21.208Z] >>> [apiv2][query] GET https://api.github.com/repos/ /actions/secrets/public-key type=owner
+[debug] [2025-04-10T03:30:21.459Z] <<< [apiv2][status] GET https://api.github.com/repos/ /actions/secrets/public-key 404
+[debug] [2025-04-10T03:30:21.460Z] <<< [apiv2][body] GET https://api.github.com/repos/ /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-04-10T03:30:21.515Z] >>> [apiv2][query] GET https://api.github.com/repos/ /actions/secrets/public-key type=owner
+[debug] [2025-04-10T03:30:21.767Z] <<< [apiv2][status] GET https://api.github.com/repos/ /actions/secrets/public-key 404
+[debug] [2025-04-10T03:30:21.767Z] <<< [apiv2][body] GET https://api.github.com/repos/ /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-04-10T03:30:21.770Z] >>> [apiv2][query] GET https://api.github.com/repos/ /actions/secrets/public-key type=owner
+[debug] [2025-04-10T03:30:22.002Z] <<< [apiv2][status] GET https://api.github.com/repos/ /actions/secrets/public-key 404
+[debug] [2025-04-10T03:30:22.002Z] <<< [apiv2][body] GET https://api.github.com/repos/ /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-04-10T03:30:22.004Z] >>> [apiv2][query] GET https://api.github.com/repos/ /actions/secrets/public-key type=owner
+[debug] [2025-04-10T03:30:22.230Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2025-04-10T03:30:22.250Z] <<< [apiv2][status] GET https://api.github.com/repos/ /actions/secrets/public-key 404
+[debug] [2025-04-10T03:30:22.250Z] <<< [apiv2][body] GET https://api.github.com/repos/ /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-04-10T03:30:22.464Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2025-04-10T03:30:22.464Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-04-10T03:30:23.680Z] >>> [apiv2][query] GET https://api.github.com/repos/  /actions/secrets/public-key type=owner
+[debug] [2025-04-10T03:30:23.919Z] <<< [apiv2][status] GET https://api.github.com/repos/  /actions/secrets/public-key 404
+[debug] [2025-04-10T03:30:23.919Z] <<< [apiv2][body] GET https://api.github.com/repos/  /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 

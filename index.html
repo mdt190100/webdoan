@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>RoamAway</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/54f0cb7e4a.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Firebase SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js"></script>
+
+    <script src="firebase.js"></script>
+    <script src="script.js"></script>
+    <!-- index.html -->
+  </head>
+  <body>
+    <header>
+      <div class="header-top">
+        <i class="fas fa-bars"></i>
+        <ul>
+          <li style="--x: 1"><a href="">Home</a></li>
+          <li style="--x: 2"><a href="">Features</a></li>
+          <li style="--x: 3"><a href="">About Us</a></li>
+          <li style="--x: 4"><a href="">Collection</a></li>
+          <li style="--x: 5"><a href="">Assessment</a></li>
+          <li style="--x: 6"><a href="">Contact</a></li>
+        </ul>
+      </div>
+      <div class="video-container">
+        <video src="videonen.mp4" autoplay muted loop></video>
+      </div>
+
+      <!-- Thêm form LOGIN ở đây -->
+      <form id="loginForm" action="#">
+      <div class="login-form">
+        <h2>Login</h2>
+        <form action="#">
+          <input type="text" placeholder="Email/ID" required />
+          <input
+            type="password"
+            id="login-password"
+            placeholder="Password"
+            required
+          />
+          <button type="submit">Login</button>
+          <p>Or</p>
+
+          <button type="button" id="google-login">Login with Google</button>
+        </form>
+        <p class="register-link">
+          Do you haven't an account?? <a href="register.html">Sign in now</a>
+        </p>
+      </div>
+      <!-- Kết thúc form LOGIN -->
+
+      <div class="header-content">
+        <h1>RoamAway</h1>
+        <p>Discover the world in your own way</p>
+        <form action="">
+          <h1>Where do you feel like going right now?</h1>
+          <p>Place</p>
+          <select name="" id="">
+            <option value="#">--Select a location--</option>
+          </select>
+          <p>Number of people</p>
+          <input
+            type="number"
+            min="1"
+            placeholder="How many people do you travel"
+          />
+          <p>Day Away</p>
+          <input type="date" />
+          <p>Day Back</p>
+          <input type="date" />
+          <button>Search</button>
+        </form>
+      </div>
+    </header>
+    <script src="script.js"></script>
+  </body>
+</html>
